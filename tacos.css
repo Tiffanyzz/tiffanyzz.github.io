@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+.iphone {
+    background-image: url(apple-iphone6plus-silver-portrait.png);
+    height: 500px;
+    width: 500px;
+    position: relative;
+    background-size: 500px;
+    background-position: -125px;
+}
+
+.power {
+    position: absolute;
+    height: 30px;
+    width: 4px;
+    border-radius: 50px;
+    background-color: #9f9fa3;
+    top: 55px;
+    left: 123px;
+}
+
+.lock {
+    position: absolute;
+    height: 24px;
+    width: 3px;
+    border-radius: 50px;
+    background-color: #9f9fa3;
+    top: -15px;
+    left: -217px;
+}
+
+.up {
+    position: absolute;
+    height: 28px;
+    width: 3px;
+    border-radius: 50px;
+    background-color: #9f9fa3;
+    top: 40px;
+    left: -1px;
+}
+
+.down {
+    position: absolute;
+    height: 28px;
+    width: 3px;
+    border-radius: 50px;
+    background-color: #9f9fa3;
+    top: 40px;
+    left: 0px;
+}
+
+.flash {
+    position: absolute;
+    height: 4px;
+    width: 4px;
+    border-radius: 50px;
+    background-color: black;
+    top: -35px;
+    left: 94px;
+}
+
+.camara {
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 50px;
+    background-color: black;
+    top: 15px;
+    left: -30px;
+}
+
+.speaker {
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    top: 2px;
+    left: 17px;
+}
+
+.btn {
+    position: absolute;
+    top: 437px;
+    left: 402px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+    background: linear-gradient(80deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #303233 100%);
+}
+
+.btn>span {
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    top: calc(50% - 14px);
+    left: calc(50% - 14px);
+    border-radius: 50px;
+    background-color: white;
+}
+
+.outside {
+    position: absolute;
+    height: 440px;
+    width: 218px;
+    border-radius: 30px;
+    background-color: white;
+    border: 2px solid #9f9fa3;
+    top: 28px;
+    left: 300px;
+    box-shadow: 1px 3px 5px rgba(20%, 20%, 40%, 0.2);
+}
+
+.phoneface {
+    position: absolute;
+    height: 345px;
+    width: 195px;
+    /*background-color: black;*/
+    background: linear-gradient(to bottom right, black, #555);
+    top: 46px;
+    left: 10px;
+    background-image: linear-gradient();
+}

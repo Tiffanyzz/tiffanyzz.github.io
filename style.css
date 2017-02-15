@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+nav {}
+
+nav>ul {
+    padding: 0;
+    margin: 0;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+nav>ul li {
+    list-style: none;
+    float: right;
+    height: 50px;
+    width: 100px;
+    line-height: 50px;
+    color: white;
+    font-weight: 900px;
+}
+
+span {
+    position: absolute;
+    margin: 0 auto;
+    display: none;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600px;
+    top: 50%;
+    left: 0;
+    margin-top: calc(-30px/2);
+    text-align: center;
+    width: 100%;
+    color: #ee1b6c;
+    z-index: 1;
+}
+
+.thumbnail:hover span {
+    display: block;
+}
+
+.thumbnail a {
+    display: flex;
+    border: 0;
+}
+
+.thumbnail a:after {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.thumbnail a:hover:after {
+    background-color: rgba(44, 44, 44, 2.5);
+}
+
+.thumbnail>a>img {
+    width: 100% !important;
+}
+
+.jumbotron {
+    background-image: url(homepage.JPG);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 250px;
+    height: 100vh;
+}
+
+.jumbotron h1 {
+    display: inline-block;
+    font-size: 6em;
+    font-weight: 100px;
+    font-family: 'Advent Pro', sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.jumbotron p {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: 'Kalam', cursive !important;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.separator-line:after,
+.separator-line:before {
+    content: "";
+    border: 1px solid white;
+    width: 30%;
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.separator-line-col {
+    color: #c5a47e;
+    margin-bottom: 40px;
+}
+
+.separator-line-col:after,
+.separator-line-col:before {
+    content: "";
+    border: 1px solid #c5a47e;
+    width: 10%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.gravata {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gravata h1 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 40px;
+}
+
+.gravata p {
+    font-family: 'Kalam', cursive !important;
+    margin-bottom: 150px;
+    font-size: 18px;
+}
+
+.gravata img {
+    height: 10em;
+    width: 10em;
+    max-width: 100%;
+    border-radius: 75PX;
+    margin-top: 60px;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.icon1 h1,
+.icon2 h1,
+.icon3 h1,
+{
+    font-family: 'Slabo 27px', serif !important;
+    font-weight: 500px;
+}
+
+.icon1 p,
+.icon2 p,
+.icon3 p {
+    font-family: 'Slabo 27px', serif !important;
+    font-weight: 500px;
+}
+
+.icon1 img,
+.icon2 img,
+.icon3 img {
+    height: auto;
+    max-width: 100%;
+}
+
+[class^="col-"] h1,
+p {
+    font-family: 'Slabo 27px', serif;
+}
+
+.social-media {
+    display: inline-block;
+    padding-left: 15%;
+    letter-spacing: 5px;
+}
+
+.social-media img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.info h1 {
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.info p {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+footer {
+    height: 100%;
+    clear: both;
+    background-color: #333;
+    color: #eee;
+    margin-top: 0px;
+}
+
+.footer1 img {
+    padding: 3%;
+}
+
+.footer1 ul li {
+    font-family: 'Slabo 27px', serif;
+    font-size: 15px;
+}
+
+.footer2 {
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-size: 15px;
+}
